@@ -1,0 +1,15 @@
+{
+  "port": "9999",
+  "adminAccount": "admin@ke.com",
+  "closeRegister": false,
+  "versionNotify": false,
+  "db": {
+    "comment": "local db",
+    "servername": "127.0.0.1",
+    "DATABASE": "yapidb",
+    "port": 27017,
+    "authSource": "admin"
+  },
+  "mail": {},
+  "ldapLogin": {}
+}

@@ -1,0 +1,16 @@
+{
+    "port": "20568",
+    "adminAccount": "prod@admin.com",
+    "closeRegister": true,
+    "versionNotify": false,
+    "db-dev": {
+        "comment": "local db",
+        "servername": "127.0.0.1",
+        "DATABASE": "yapimock",
+        "port": 27017,
+        "authSource": "admin"
+    },
+    "mail": {
+        "enable": true
+    }
+}

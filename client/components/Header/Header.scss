@@ -1,0 +1,138 @@
+@import '../../styles/mixin.scss';
+
+/* .header-box.css */
+.header-box {
+  height: 0.56rem;
+  line-height: 0.56rem;
+  background: #32363a;
+  padding: 0;
+
+  .logo {
+    position: relative;
+    float: left;
+    line-height: 0.56rem;
+    height: 0.56rem;
+    width: 56px;
+    background-color: inherit;
+    transition: all 0.2s;
+
+    .href {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 56px;
+      width: 56px;
+
+      .logo-img {
+        width: 48px;
+        height: 48px;
+      }
+    }
+
+    .logo-name {
+      // color: $color-white;
+      font-size: 0.24rem;
+      font-weight: 300;
+      margin-left: 0.38rem;
+    }
+
+    .img {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-16px, -17px);
+    }
+
+    .ui-badge {
+      position: absolute;
+      right: -18px;
+      top: 6px;
+      width: 30px;
+      height: 21px;
+      background-size: 236px 21px;
+      background-repeat: no-repeat;
+      background-image: none;
+    }
+  }
+
+  .nav-toolbar {
+    font-size: 0.15rem;
+    float: left;
+  }
+
+  .user-menu {
+    margin-top: 20px;
+  }
+
+  .user-toolbar {
+    float: right;
+    height: 0.54rem;
+    display: flex;
+    align-items: center;
+
+    .item-search {
+      width: 4rem;
+    }
+
+    .toolbar-li {
+      float: left;
+      font-size: 0.14rem;
+      cursor: pointer;
+      color: #ccc;
+      margin-left: 0.16rem;
+      transition: color 0.2s;
+
+      & a {
+        color: #ccc;
+      }
+
+      .dropdown-link {
+        color: #ccc;
+        transition: color 0.2s;
+
+        // .ant-avatar-image{
+        //   margin-bottom: -10px;
+        // }
+        // .ant-avatar > img{
+        //   height: auto;
+        // }
+        .avatar-image {
+          margin-bottom: -10px;
+          display: inline-block;
+          text-align: center;
+          background: #ccc;
+          color: #fff;
+          white-space: nowrap;
+          position: relative;
+          overflow: hidden;
+          width: 32px;
+          height: 32px;
+          line-height: 32px;
+          border-radius: 16px;
+        }
+
+        .avatar-image > img {
+          height: auto;
+          width: 100%;
+          display: bloack;
+        }
+      }
+
+      .anticon.active {
+        color: #2395f1;
+      }
+
+      &:hover {
+        .dropdown-link {
+          color: #2395f1;
+        }
+      }
+
+      .name {
+        margin-left: 0.08rem;
+      }
+    }
+  }
+}
