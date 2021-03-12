@@ -23,6 +23,7 @@ git clone git@github.com:LianjiaTech/newsboy.git api-weapon
 cd api-weapon
 # install dependencies
 npm install
+npm i cross-env nodemon webpack-cli -g
 # init mongodb and admin account, also can be set in config.json
 npm run install-server
 # build client
