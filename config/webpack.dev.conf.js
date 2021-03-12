@@ -13,7 +13,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     proxy: [
       {
         context: ['/api', '/login', '/logout', '/mock', '/static', '/image'],
-        target: 'http://127.0.0.1:9999',
+        target: 'http://127.0.0.1:20568',
         ws: true,
       },
     ],
