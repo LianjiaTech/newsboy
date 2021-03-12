@@ -18,11 +18,8 @@ proxy_set_header Connection "upgrade";
 ### install
 
 ```shell
-mkdir api_weapon
-cd api_weapon
 git clone git@github.com:LianjiaTech/newsboy.git api-weapon
-# custom config in config.json
-cp api-weapon/config_example.json ./config.json 
+# custom config in ./config.json
 cd api-weapon
 # install dependencies
 npm install
