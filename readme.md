@@ -31,3 +31,7 @@ npm run build-client
 # start server，visit 127.0.0.1:{custom port in config.json }
 node server/app.js 
 ```
+
+> init admin account
+> email: prod@admin.com
+> pass: adminPass
